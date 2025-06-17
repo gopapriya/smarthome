@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us - Smart Home</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    body {
+      background-color: #fff;
+      color: #333;
+    }
+    header {
+      background-color: #f7f7f7;
+      padding: 10px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header .logo {
+      font-size: 1.2rem;
+      font-weight: bold;
+    }
+    header nav a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #333;
+    }
+
+    .hero {
+      background-image: url('https://img.freepik.com/free-photo/digital-tablet-screen-with-smart-home-controller-wooden-table_53876-96317.jpg?ga=GA1.1.19414478.1749821320&semt=ais_hybrid&w=740'); 
+      background-size: cover;
+      background-position: center;
+      height: 300px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-size: 2.5rem;
+      font-weight: bold;
+    }
+
+    .offices {
+      padding: 40px 20px;
+      text-align: center;
+    }
+    .offices h2 {
+      margin-bottom: 20px;
+    }
+    .office-locations {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      flex-wrap: wrap;
+    }
+    .office {
+      background-color: #f1f1f1;
+      padding: 20px;
+      width: 250px;
+      border-radius: 8px;
+    }
+    .office button {
+      margin-top: 10px;
+      padding: 8px 15px;
+      background-color: #a9d4d9;
+      border: none;
+      cursor: pointer;
+    }
+
+    .project {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      padding: 40px 20px;
+      gap: 40px;
+    }
+    .project form {
+      display: flex;
+      flex-direction: column;
+      width: 300px;
+    }
+    .project form input,
+    .project form textarea {
+      margin-bottom: 15px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    .project form button {
+      padding: 10px;
+      background-color: #a9d4d9;
+      border: none;
+      cursor: pointer;
+    }
+    .project img {
+      max-width: 300px;
+      border-radius: 10px;
+    }
+
+    .map {
+      width: 100%;
+      height: 300px;
+    }
+
+    .footer {
+      background-color: #2b2b2b;
+      color: #fff;
+      padding: 40px 20px;
+    }
+    .footer-content {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+    .footer-column {
+      margin: 10px;
+      max-width: 250px;
+    }
+    .footer-column h3 {
+      margin-bottom: 15px;
+    }
+    .footer-column a {
+      color: #ccc;
+      text-decoration: none;
+      display: block;
+      margin: 5px 0;
+    }
+    .cta {
+      background-color: #3a3a3a;
+      padding: 20px;
+      text-align: center;
+    }
+    .cta button {
+      margin-top: 10px;
+      padding: 10px 20px;
+      background-color: #a9d4d9;
+      border: none;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">🏠 SMART HOME</div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Pages</a>
+      <a href="#">Contact Us</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    Contact Us
+  </section>
+
+  <section class="offices">
+    <h2>Offices</h2>
+    <div class="office-locations">
+      <div class="office">
+        <h3>LDN</h3>
+        <p>123 Buckingham St, London, UK</p>
+        <button>Google Map</button>
+      </div>
+      <div class="office">
+        <h3>NYC</h3>
+        <p>7272 New Park St, NY 10201</p>
+        <button>Google Map</button>
+      </div>
+      <div class="office">
+        <h3>SYD</h3>
+        <p>5 George St, The Rocks, SYD 2000</p>
+        <button>Google Map</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="project">
+    <form>
+      <h3>Make Smart Home Project</h3>
+      <input type="text" placeholder="Enter your Name" required>
+      <input type="email" placeholder="Enter valid email address" required>
+      <textarea rows="4" placeholder="Enter your message"></textarea>
+      <button type="submit">SEND</button>
+    </form>
+    <img src="https://img.freepik.com/free-photo/hand-holding-smartphone-home_23-2150639966.jpg?ga=GA1.1.19414478.1749821320&semt=ais_hybrid&w=740" alt="Smart Home Project">
+  </section>
+
+  <section>
+    <iframe class="map" src="https://maps.google.com/maps?q=New York&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"></iframe>
+  </section>
+
+  <section class="cta">
+    <h2>Ready to get started?</h2>
+    <button>TALK TO AN EXPERT</button>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-column">
+        <h3>SMART HOME</h3>
+        <p>789 New York Ave, East End, NY 10001, United States</p>
+      </div>
+      <div class="footer-column">
+        <h3>Need help?</h3>
+        <p>📞 +1-800-123-4567</p>
+        <p>Monday - Friday: 10:00 - 18:30<br>Saturday: 11:00 - 16:00</p>
+        <p>📧 smarthome@support.com</p>
+      </div>
+      <div class="footer-column">
+        <h3>Quick Links</h3>
+        <a href="#">About Company</a>
+        <a href="#">Our Services</a>
+        <a href="#">Testimonials</a>
+        <a href="#">Areas We Serve</a>
+        <a href="#">Brands</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
